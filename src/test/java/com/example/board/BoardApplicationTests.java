@@ -1,5 +1,6 @@
 package com.example.board;
 
+import com.example.board.Controller.BoardController;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,6 +9,7 @@ class BoardApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
