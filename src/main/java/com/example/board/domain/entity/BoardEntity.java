@@ -1,5 +1,6 @@
 package com.example.board.domain.entity;
 //DB테이블과 매핑되는 객체를 정의하는 Entity 구현
+//테이블 정보 설정
 
 import lombok.AccessLevel;
 import lombok.Builder;
