@@ -1,10 +1,19 @@
+
+devtools:
+  livereload:
+    enable: true
+      freemarker:
+        cache: false
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/board?serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/spring-board?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    //localhost:3306/[db이름]?~
     username: root
     password: 1234
 
+//jpa 설정 부분
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     open-in-view: false
